@@ -11,22 +11,6 @@ const pihole = () => {
       },
       modifyableEnvironment: [
         {
-          key: 'TZ',
-          value: 'Etc/UTC'
-        },
-        {
-          key: 'WEBPASSWORD',
-          value: 'password'
-        },
-        {
-          key: 'DNS1',
-          value: '8.8.8.8'
-        },
-        {
-          key: 'DNS2',
-          value: '8.8.4.4'
-        },
-        {
           key: 'INTERFACE',
           value: 'eth0'
         }
